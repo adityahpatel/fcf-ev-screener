@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FCF/EV Screener</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #f5f5f0; color: #111; padding: 28px; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 20px; }
+    .controls { display: flex; gap: 10px; align-items: center; margin-bottom: 18px; flex-wrap: wrap; }
+    button { padding: 8px 20px; font-size: 1rem; border: 2px solid #444; background: #fff; border-radius: 6px; cursor: pointer; }
+    button.active { background: #222; color: #fff; border-color: #222; }
+    input { padding: 8px 14px; font-size: 1rem; border: 2px solid #ccc; border-radius: 6px; width: 280px; outline: none; }
+    input:focus { border-color: #555; }
+    #status { color: #888; font-size: 0.95rem; margin-left: 4px; }
+    .scroll { max-height: 78vh; overflow-y: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    table { width: 100%; border-collapse: collapse; background: #fff; font-size: 1rem; }
+    th { background: #1a1a1a; color: #fff; padding: 12px 14px; text-align: left; position: sticky; top: 0; z-index: 1; font-size: 0.9rem; letter-spacing: 0.04em; }
+    td { padding: 11px 14px; border-bottom: 1px solid #eee; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #eef2ff; }
+    .ticker { font-weight: 700; color: #1a3fa8; }
+    .nothing { text-align: center; padding: 40px; color: #888; font-size: 1.2rem; }
+    .method-link { font-size: 0.9rem; color: #1a3fa8; cursor: pointer; text-decoration: underline; margin-left: 8px; }
+    .overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:10; align-items:center; justify-content:center; }
+    .overlay.open { display:flex; }
+    .modal { background:#fff; border-radius:10px; padding:36px; max-width:600px; width:90%; max-height:85vh; overflow-y:auto; position:relative; }
+    .modal h2 { font-size:1.4rem; margin-bottom:20px; }
+    .modal .close { position:absolute; top:14px; right:18px; font-size:1.4rem; cursor:pointer; color:#888; }
+    .step { display:flex; gap:16px; margin-bottom:18px; align-items:flex-start; }
+    .step-num { background:#1a1a1a; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-size:0.85rem; flex-shrink:0; margin-top:2px; }
+    .step-body { flex:1; }
+    .step-body strong { display:block; font-size:1rem; margin-bottom:3px; }
+    .step-body span { color:#555; font-size:0.92rem; line-height:1.5; }
+    .step-body .count { font-weight:700; color:#c00; }
+    .step-body .kept { font-weight:700; color:#1a3fa8; }
+    .divider { border:none; border-top:1px solid #eee; margin:4px 0 18px; }
+  </style>
+</head>
+<body>
+  <h1>FCF / EV Stock Screener <span class="method-link" onclick="document.getElementById('overlay').classList.add('open')">How we built this universe</span></h1>
+
+  <div class="overlay" id="overlay" onclick="if(event.target===this)this.classList.remove('open')">
+    <div class="modal">
+      <span class="close" onclick="document.getElementById('overlay').classList.remove('open')">&#x2715;</span>
+      <h2>How we went from 10,363 → 1,123</h2>
+      <hr class="divider">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <strong>Started with SEC full universe</strong>
+          <span>All US-listed companies from <a href="https://www.sec.gov/files/company_tickers.json" target="_blank">SEC EDGAR</a> — <span class="kept">10,363 listings</span></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <strong>Removed non-operating entities</strong>
+          <span>Filtered out banks, bancorps, financial institutions, trusts, funds, ETFs, REITs, holding companies, and realty firms — these don't generate operating free cash flow. <span class="count">−5,407 removed</span></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <strong>Deduplicated OTC tickers</strong>
+          <span>Removed duplicate OTC listings of the same underlying company (e.g. foreign ADR shadows). <span class="count">−370 removed</span> → <span class="kept">4,586 remaining</span></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <strong>Removed micro-caps ≤ $50M market cap</strong>
+          <span>Too illiquid and high-risk for meaningful value investing signals. <span class="count">−256 removed</span></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <strong>Removed tickers with no market cap data</strong>
+          <span>Yahoo Finance returned no market cap for these — data too sparse to be useful. <span class="count">−70 removed</span> → <span class="kept">4,260 in universe</span></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-body">
+          <strong>Removed companies with missing EV or FCF data</strong>
+          <span>Yahoo Finance returned no Enterprise Value or Free Cash Flow — cannot compute the ratio. <span class="count">−297 removed</span></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">7</div>
+        <div class="step-body">
+          <strong>Removed companies with negative FCF</strong>
+          <span>A negative FCF/EV ratio has no value-investing interpretation — these companies are burning cash. <span class="count">−2,840 removed</span></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">8</div>
+        <div class="step-body">
+          <strong>Final ranked universe</strong>
+          <span>Companies ranked by FCF/EV % — higher means more free cash generated relative to price paid. <span class="kept">1,123 companies</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <div style="display:flex;gap:6px">
+      <button id="btn-all" class="active" onclick="setFilter(0)">All</button>
+      <button id="btn-20" onclick="setFilter(20)">Top 20</button>
+      <button id="btn-30" onclick="setFilter(30)">Top 30</button>
+      <button id="btn-50" onclick="setFilter(50)">Top 50</button>
+    </div>
+    <input id="search" placeholder="Search ticker or company name..." oninput="render()">
+    <span id="status"></span>
+  </div>
+  <div class="scroll">
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th><th>Ticker</th><th>Company</th>
+          <th>Market Cap</th><th>FCF/EV %</th><th>Rev Growth %</th><th>Analysts</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <script>
+    let all = [], topN = 0;
+
+    const fmt$ = v => { const n = +v; if (!n || n === -999) return '—'; return n >= 1e9 ? '$'+(n/1e9).toFixed(1)+'B' : '$'+(n/1e6).toFixed(0)+'M'; };
+    const fmtN = v => { const n = +v; return (!n || n === -999) ? '—' : n.toFixed(1); };
+
+    function setFilter(n) {
+      topN = n;
+      ['all','20','30','50'].forEach(k => document.getElementById('btn-'+k).classList.remove('active'));
+      document.getElementById('btn-'+(n||'all')).classList.add('active');
+      render();
+    }
+
+    function render() {
+      const q = document.getElementById('search').value.toLowerCase().trim();
+      let rows = topN ? all.slice(0, topN) : all;
+      if (q) rows = all.filter(r => r.Ticker.toLowerCase().includes(q) || r.Name.toLowerCase().includes(q));
+
+      document.getElementById('status').textContent = rows.length + ' companies';
+      if (!rows.length) {
+        document.getElementById('tbody').innerHTML = '<tr><td colspan="7" class="nothing">Nothing found</td></tr>';
+        return;
+      }
+      document.getElementById('tbody').innerHTML = rows.map(r => `
+        <tr>
+          <td>${r.Rank}</td>
+          <td class="ticker">${r.Ticker}</td>
+          <td>${r.Name}</td>
+          <td>${fmt$(r.Market_Cap)}</td>
+          <td>${fmtN(r.FCF_EV_Ratio_Pct)}%</td>
+          <td>${fmtN(r.Revenue_Growth_Est_Pct)}%</td>
+          <td>${r.Analyst_Count === '-999' || !r.Analyst_Count ? '—' : r.Analyst_Count}</td>
+        </tr>`).join('');
+    }
+
+    fetch('data.json').then(r => r.json()).then(d => { all = d; render(); });
+  </script>
+</body>
+</html>

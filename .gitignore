@@ -1,0 +1,6 @@
+data_*.csv
+processed_data_*.csv
+errors.log
+cron.log
+__pycache__/
+*.pyc
