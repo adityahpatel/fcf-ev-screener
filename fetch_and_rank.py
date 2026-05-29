@@ -60,7 +60,7 @@ def main():
     ts = datetime.now().strftime('%m%d%Y')
     data_file, ranked_file = f'data_{ts}.csv', f'processed_data_{ts}.csv'
 
-    tickers = pd.read_csv('company_tickers.csv').rename(columns={'ticker':'Ticker','name':'Name'}).head(5)
+    tickers = pd.read_csv('company_tickers.csv').rename(columns={'ticker':'Ticker','name':'Name'})
     print(f'Processing {len(tickers)} tickers...')
 
     with open(data_file, 'w', newline='') as f:
