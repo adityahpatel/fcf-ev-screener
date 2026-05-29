@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(brew install *)",
+      "Bash(open *)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(curl -s https://www.nasdaqtrader.com/dynamic/SymbolDirectory/nasdaqlisted.txt)",
+      "WebSearch",
+      "WebFetch(domain:finance.yahoo.com)",
+      "Bash(python3 *)",
+      "Bash(pkill *)",
+      "Bash(curl *)",
+      "Bash(tee test_output.log)"
+    ]
+  }
+}
