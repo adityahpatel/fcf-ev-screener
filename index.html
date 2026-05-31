@@ -43,7 +43,7 @@
   <div class="overlay" id="overlay" onclick="if(event.target===this)this.classList.remove('open')">
     <div class="modal">
       <span class="close" onclick="document.getElementById('overlay').classList.remove('open')">&#x2715;</span>
-      <h2>How we went from 10,363 → 1,123</h2>
+      <h2>How we went from 10,363 → 1,061</h2>
       <hr class="divider">
       <div class="step">
         <div class="step-num">1</div>
@@ -97,15 +97,22 @@
       <div class="step">
         <div class="step-num">8</div>
         <div class="step-body">
-          <strong>How FCF/EV is computed</strong>
-          <span><b>FCF</b> is the average of up to 5 values: TTM (trailing twelve months) + last 4 annual years. <b>Enterprise Value</b> is the live value as of the Friday the data was pulled.</span>
+          <strong>Removed foreign-incorporated companies</strong>
+          <span>Filtered out companies incorporated outside the US but listed on US exchanges — identified by legal suffixes (plc, AG, SE, N.V., S.A., AB, etc.) and OTC foreign share tickers. Examples: AstraZeneca, Linde, TotalEnergies, UBS, Accenture. <span class="count">−451 removed</span> → <span class="kept">3,809 remaining</span></span>
         </div>
       </div>
       <div class="step">
         <div class="step-num">9</div>
         <div class="step-body">
+          <strong>How FCF/EV is computed</strong>
+          <span><b>FCF</b> is the average of up to 5 values: TTM (trailing twelve months) + last 4 annual years. <b>Enterprise Value</b> is the live value as of the Friday the data was pulled.</span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">10</div>
+        <div class="step-body">
           <strong>Final ranked universe</strong>
-          <span>Companies ranked by FCF/EV % — higher means more free cash generated relative to price paid. <span class="kept">1,123 companies</span></span>
+          <span>Companies ranked by FCF/EV % — higher means more free cash generated relative to price paid. <span class="kept">1,061 companies</span></span>
         </div>
       </div>
     </div>
