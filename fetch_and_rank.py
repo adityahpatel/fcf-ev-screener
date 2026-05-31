@@ -53,7 +53,7 @@ def rank(data_file, ranked_file):
         for i, r in enumerate(ranked, 1):
             w.writerow({'Rank': i, **r})
     with open('data.json', 'w') as f:
-        json.dump({'updated': datetime.now().strftime('%A %B %d %Y'), 'rows': ranked}, f)
+        json.dump({'updated': datetime.now().strftime('%a, %b %d, %Y'), 'rows': ranked}, f)
     print(f'Ranked {len(ranked)} tickers -> {ranked_file} + data.json')
 
 def main():
