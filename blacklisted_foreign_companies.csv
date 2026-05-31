@@ -1,0 +1,876 @@
+Ticker,Name
+AZN,ASTRAZENECA PLC
+LIN,LINDE PLC
+TTE,TotalEnergies SE
+RTNTF,RIO TINTO LTD
+UBS,UBS Group AG
+ETN,Eaton Corp plc
+ACN,Accenture plc
+TT,Trane Technologies plc
+MDT,Medtronic plc
+JCI,Johnson Controls International plc
+AON,Aon plc
+TEL,TE Connectivity plc
+LSEGY,London Stock Exchange Group plc
+ARGX,ARGENX SE
+AU,AngloGold Ashanti PLC
+RPRX,Royalty Pharma plc
+FTI,TechnipFMC plc
+NVT,nVent Electric plc
+WTW,WILLIS TOWERS WATSON PLC
+BNTX,BioNTech SE
+STE,STERIS plc
+SW,Smurfit Westrock plc
+TLK,PERUSAHAAN PERSEROAN PERSERO PT TELEKOMUNIKASI INDONESIA TBK
+FLUT,Flutter Entertainment plc
+JAZZ,Jazz Pharmaceuticals plc
+ASND,Ascendis Pharma A/S
+ONON,On Holding AG
+WSE,Wise Group plc
+APTV,Aptiv PLC
+PNR,PENTAIR plc
+ALLE,Allegion plc
+ICLR,ICON PLC
+FRO,Frontline plc
+JHG,JANUS HENDERSON GROUP PLC
+BIRK,Birkenstock Holding plc
+WFRD,Weatherford International plc
+ST,Sensata Technologies Holding plc
+GTES,Gates Industrial Corp plc
+KLAR,Klarna Group plc
+ALKS,Alkermes plc.
+CNTA,Centessa Pharmaceuticals plc
+CRSP,CRISPR Therapeutics AG
+STVN,Stevanato Group S.p.A.
+CSTM,CONSTELLIUM SE
+SIM,"GRUPO SIMEC, S.A.B. de C.V."
+MAUTF,Montage Gold Corp.
+LIVN,LivaNova PLC
+NGXXF,NGEx Minerals Ltd.
+KNSA,"Kiniksa Pharmaceuticals International, plc"
+MRX,Marex Group plc
+SRAD,Sportradar Group AG
+VTMX,"Vesta Real Estate Corporation, S.A.B. de C.V."
+TRMD,TORM plc
+VGNT,Versigent PLC
+CDLR,Cadeler A/S
+CMPR,CIMPRESS plc
+NIQ,NIQ Global Intelligence plc
+AERO,"Grupo Aeromexico, S.A.B. de C.V."
+AEGXF,Aecon Group Inc.
+BRSL,Brightstar Lottery PLC
+SXGCF,Southern Cross Gold Consolidated Ltd.
+GUYGF,G2 Goldfields Inc.
+ADNT,Adient plc
+RUPRF,RUPERT RESOURCES LTD
+ABXXF,Abaxx Technologies Inc.
+CMPS,COMPASS Pathways plc
+CLVT,CLARIVATE PLC
+GTBIF,Green Thumb Industries Inc.
+TCNNF,Trulieve Cannabis Corp.
+LAR,Lithium Argentina AG
+GHRS,GH Research PLC
+PRGO,PERRIGO Co plc
+DOLE,Dole plc
+AIIR,AIR Global PLC
+CPPKF,Faraday Copper Corp.
+RIOFF,Rio2 Ltd
+AEBI,Aebi Schmidt Holding AG
+FUEMF,Fuerte Metals Corp
+JMIA,Jumia Technologies AG
+CAZGF,Catapult Group International Ltd
+GSM,Ferroglobe PLC
+THSGF,THESIS GOLD INC.
+GMTL,Guardian Metal Resources PLC
+MRRDF,Meridian Mining UK Societas
+BWMX,"BETTERWARE DE MEXICO, S.A.P.I. DE C.V"
+AMRQF,AMAROQ LTD.
+VREOF,Vireo Growth Inc.
+LGDTF,Liberty Gold Corp. /CAN
+VALN,Valneva SE
+GSKRF,FIRST NORDIC METALS CORP.
+UURAF,Ucore Rare Metals Inc.
+FFMGF,First Mining Gold Corp.
+FGOVF,FREEGOLD VENTURES LTD
+ZDCAF,"ZEDCOR, INC."
+CMCL,Caledonia Mining Corp Plc
+AUTL,Autolus Therapeutics plc
+MGMNF,MAGNA MINING INC.
+REEMF,RARE ELEMENT RESOURCES LTD
+PINWF,Pinewood Technologies Group plc
+CLCHF,Clinch Resources Ltd.
+PTHRF,Pantheon Resources plc
+TAKOF,Volatus Aerospace Inc.
+BRVMF,Bravo Mining Corp.
+CRLBF,Cresco Labs Inc.
+BKRRF,BLACKROCK SILVER CORP.
+GSVRF,GUANAJUATO SILVER CO LTD
+GGAZF,Goldgroup Mining Inc.
+BCYC,BICYCLE THERAPEUTICS PLC
+WHGOF,White Gold Corp.
+AIRRF,Aurion Resources Ltd.
+OTLY,Oatly Group AB
+SITKF,Sitka Gold Corp.
+SVRSF,Silver Storm Mining Ltd.
+NTPIF,NAM TAI PROPERTY INC.
+CDPMF,Cerro de Pasco Resources Inc.
+HHLKF,Hot Chili Ltd
+TDRRF,Tudor Gold Corp.
+CAMVF,Cambria Gold Mines Inc.
+GLATF,Global Atomic Corp
+KRYXF,KORYX COPPER INC.
+PNPNF,POWER METALLIC MINES INC.
+TSNDF,TerrAscend Corp.
+PMMCF,Pampa Metals Corp
+TGMPF,Tantalus Systems Holding Inc.
+SRGXF,Surge Copper Corp
+TBXXF,King Copper Discovery Corp.
+GARLF,Roxmore Resources Inc.
+HWAIF,Healwell AI Inc.
+TSKFF,Talisker Resources Ltd.
+ICTSF,ICTS INTERNATIONAL N V
+SUGRF,Sucro Ltd
+RVLGF,Revival Gold Inc.
+PSRHF,Pulsar Helium Inc.
+DAVA,Endava plc
+SSVFF,SOUTHERN SILVER EXPLORATION CORP
+AMEGF,American Eagle Gold Corp.
+STLRF,STLLR Gold Inc.
+TETOF,Tectonic Metals Inc.
+AXREF,AMARC RESOURCES LTD
+AGXPF,SILVER X MINING CORP.
+HYDTF,Hydreight Technologies Inc.
+APGOF,Apollo Silver Corp
+VLTLF,Volt Lithium Corp.
+GCUMF,Gunnison Copper Corp.
+LMRXF,LARAMIDE RESOURCES LTD
+KTGDF,K2 Gold Corp
+WPGCF,West Point Gold Corp.
+SCTSF,Scottie Resources Corp.
+SPAUF,SPANISH MOUNTAIN GOLD LTD.
+FPRGF,Falco Resources Ltd.
+BDCTF,BuildDirect.com Technologies Inc.
+LGCXF,Lahontan Gold Corp.
+NCAUF,Newcore Gold Ltd.
+TUNGF,American Tungsten Corp.
+NZAUF,Rua Gold Inc.
+KGFMF,Kingfisher Metals Corp.
+GGOXF,Galleon Gold Corp.
+LCGMF,LION COPPER & GOLD CORP.
+LBCMF,Copper Giant Resources Corp.
+FTZFF,Fitzroy Minerals Inc.
+ZOMDF,Zomedica Corp.
+SNNGF,PPX Mining Corp.
+TNYZF,Tiny Ltd.
+DRTTF,DIRTT ENVIRONMENTAL SOLUTIONS LTD
+GRUSF,Grown Rogue International Inc.
+CVVUF,CANALASKA URANIUM LTD
+ORRCF,OROCO RESOURCE CORP
+SIREF,Sirios Resources Inc.
+ALYAF,Alithya Group inc
+GDSRF,Gold Strike Resources Corp.
+XTRAF,Xtract One Technologies Inc.
+CRCUF,Canagold Resources Ltd.
+IMTCF,Intrepid Metals Corp.
+VCUFF,Vizsla Copper Corp.
+VIVO,VivoPower PLC
+SRCRF,Scorpio Gold Corp
+BRKCF,BARKSDALE RESOURCES CORP.
+CUAUF,C3 Metals Inc.
+TINFF,Tincorp Metals Inc.
+SYHBF,SKYHARBOUR RESOURCES LTD
+NRRSF,Norsemont Mining Inc.
+DRYGF,Dryden Gold Corp.
+HANNF,Hannan Metals Ltd.
+WAMFF,Alaska Silver Corp.
+WTHVF,Westhaven Gold Corp.
+AUXXF,A2 Gold Corp.
+GPGCF,Great Pacific Gold Corp.
+SMOFF,Sonoro Gold Corp.
+ITMSF,INTERMAP TECHNOLOGIES CORP
+PGZFF,Pan Global Resources Inc.
+ARSMF,ARES STRATEGIC MINING INC.
+ARBK,Argo Blockchain Plc
+CPPMF,Coppernico Metals Inc.
+VIPRF,SILVER VIPER MINERALS CORP.
+TKRFF,TINKA RESOURCES Ltd
+MREO,Mereo BioPharma Group plc
+NPRFF,Nepra Foods Inc.
+MHUBF,MineHub Technologies Inc.
+RDEXF,RPX Gold Inc.
+EQTRF,Altamira Gold Corp.
+NRRWF,Nuran Wireless Inc.
+KCCFF,Kutcho Copper Corp.
+REVFF,Gitennes Exploration Inc.
+WAVE,Eco Wave Power Global AB (publ)
+RGCCF,Relevant Gold Corp.
+SRLZF,Salazar Resources Ltd
+USREF,Tactical Resources Corp.
+PYRGF,PyroGenesis Canada Inc.
+AZASF,Arizona Gold & Silver Inc.
+TRGEF,Targa Exploration Corp.
+RKHNF,ROCKHAVEN RESOURCES LTD
+LEEEF,Leef Brands Inc.
+LISMF,LITHIUM SOUTH DEVELOPMENT Corp
+BZDLF,KINCORA COPPER LTD
+ISTKF,Intellistake Technologies Corp.
+QZMRF,QUARTZ MOUNTAIN RESOURCES LTD
+SAGGF,Sterling Metals Corp.
+PHNMF,Phenom Resources Corp.
+NSFDF,NXT Energy Solutions Inc.
+MAUUF,AERO ENERGY Ltd
+ATCMF,ATICO MINING Corp
+WSTRF,Western Uranium & Vanadium Corp.
+KDKGF,KLONDIKE GOLD CORP /FI
+AZZTF,Aztec Minerals Corp.
+STLNF,Stallion Uranium Corp.
+EMGDF,Eminent Gold Corp.
+IBATF,INTERNATIONAL BATTERY METALS LTD.
+KNGRF,Kingsmen Resources Ltd.
+AAUAF,ALMADEN MINERALS LTD
+USGDF,AMERICAN PACIFIC MINING CORP
+HWAUF,Headwater Gold Inc.
+CGDXF,XALI GOLD CORP.
+BONXF,BONTERRA RESOURCES INC.
+PBMLF,Pacific Booker Minerals Inc.
+POWMF,Power Metal Resources PLC
+GRLMF,GreenLight Metals Inc.
+APAAF,Appia Rare Earths & Uranium Corp.
+TRGXF,Terra Rossa Gold Ltd.
+IRVRF,Irving Resources Inc.
+RSGLF,Rocky Shore Gold Ltd.
+NZERF,New Zealand Energy Corp.
+MTTAF,Meta Critical Minerals Inc.
+TTIPF,"Thiogenesis Therapeutics, Corp."
+SPMEF,South Pacific Metals Corp.
+MILIF,Military Metals Corp.
+HLRTF,Hillcrest Energy Technologies Ltd.
+TWOSF,T2 Metals Corp.
+VCGMF,Visionary Copper & Gold Mines Inc.
+JGLDF,Japan Gold Corp.
+TIGCF,Triumph Gold Corp.
+ALGRF,KENADYR METALS CORP
+OHCFF,Light AI Inc.
+IEGCF,Independence Gold Corp.
+TRUFF,Red Light Holland Corp.
+TARSF,Silver North Resources Ltd.
+RDGMF,Ridgeline Minerals Corp
+GPMTF,GPM Metals Inc.
+VAUCF,Viva Gold Corp.
+COGDF,Compass Gold Corp
+KLGDF,Kalo Gold Corp.
+BKUCF,BLUE SKY URANIUM CORP.
+LPSIF,LEGEND POWER SYSTEMS INC.
+BGAVF,Bravada Gold Corp
+FRECF,Frequency Exchange Corp.
+LILIF,Argentina Lithium & Energy Corp.
+CNTMF,Fluent Corp.
+IAALF,IBC Advanced Alloys Corp.
+RYOOF,Rio Silver Inc.
+STSBF,South Star Battery Metals Corp.
+GMVMF,GMV Minerals Inc.
+CGDCF,Carlin Gold Corp
+ENDMF,Enduro Metals Corp.
+LRRIF,Lion Rock Resources Inc.
+ALTUF,Altura Energy Corp.
+CMBMF,Cambium Networks Corp
+GNTA,Genenta Science S.p.A.
+BHSIF,BAYHORSE SILVER INC.
+TRIB,TRINITY BIOTECH PLC
+BBBMF,Lux Metals Corp.
+NIOMF,First American Uranium Inc.
+VERTF,Vertiqal Studios Corp.
+GEBRF,Greenbriar Sustainable Living Inc.
+NYMXF,NYMOX PHARMACEUTICAL CORP
+AWLIF,Ameriwest Critical Metals Inc.
+ELECF,Electric Royalties Ltd.
+CMHSF,COMPREHENSIVE HEALTHCARE SYSTEMS INC. (CANADA)
+JPOTF,Jackpot Digital Inc.
+CCOOF,CORE SILVER CORP.
+RSMXF,Regency Silver Corp.
+GARWF,Golden Arrow Resources Corp
+WLFFF,Wolfden Resources Corp
+HTOO,Fusion Fuel Green PLC
+REDRF,RED CANYON RESOURCES LTD.
+MMTIF,MICROMEM TECHNOLOGIES INC
+GRAPF,First Canadian Graphite Inc.
+AHNRF,ATHENA GOLD CORP
+ZCRMF,ZINCORE METALS INC
+VSBGF,VSBLTY GROUPE TECHNOLOGIES CORP.
+ALRTF,ALR Technologies SG Ltd.
+TRBMF,TORQ RESOURCES INC.
+OBULF,One Bullion Ltd
+ORESF,Orestone Mining Corp.
+THURF,Thunderstruck Resources Ltd.
+VRSSF,Verses AI Inc.
+APMCF,MORIEN RESOURCES CORP.
+MCUJF,MEDICURE INC
+NCNA,NuCana plc
+URZEF,URZ3 ENERGY CORP.
+CPIVF,CAPTIVA VERDE WELLNESS CORP.
+EUEMF,European Energy Metals Corp.
+FCHDF,Fairchild Gold Corp.
+NVGLF,NV Gold Corp
+BETRF,BetterLife Pharma Inc.
+HAMRF,SILVER HAMMER MINING CORP
+LTHIF,InZinc Mining Ltd.
+TRRFF,TRIFECTA GOLD LTD
+BVAXF,BioVaxys Technology Corp.
+BCUFF,Bell Copper Corp
+IMIMF,Interra Copper Corp.
+MHUAF,"Meihua International Medical Technologies Co., Ltd."
+UUUFF,Recharge Resources Ltd.
+PLCKF,Plurilock Security Inc.
+NBLXF,Noble Plains Uranium Corp.
+TRLEF,Trillion Energy International Inc.
+FASLF,First Andes Silver Ltd.
+ZPHYF,ZEPHYR MINERALS LTD.
+KIQSF,KELSO TECHNOLOGIES INC
+AVPMF,AVRUPA MINERALS LTD.
+BRQSF,"Borqs Technologies, Inc."
+GGLXF,GGL RESOURCES CORP.
+HVGDF,HARVEST GOLD CORP
+APTOF,Aptose Biosciences Inc.
+CPCPF,CopperCorp Resources Inc.
+PSYCF,Psyched Wellness Ltd.
+AAMTF,Armada Mercantile Ltd
+BITTF,BITTERROOT RESOURCES LTD
+ABCFF,ABACUS MINING & EXPLORATION CORP
+LVRLF,CordovaCann Corp.
+VIZNF,VISIONARY METALS CORP.
+RTCJF,Baijiayun Group Ltd
+LMRMF,Lomiko Metals Inc.
+VRRCF,VR Resources Ltd.
+EGMCF,EMERGENT METALS CORP.
+AVCRF,Avricore Health Inc.
+PLTYF,"Plastec Technologies, Ltd."
+SYGCF,Sylla Gold Corp.
+ROIUF,Route1 Inc.
+SSEBF,SILVER SPRUCE RESOURCES INC.
+TBLLF,Tombill Mines Ltd
+MECPF,MUSTANG ENERGY CORP.
+NVSGF,Nevada Sunrise Metals Corp.
+KLSVF,KLONDIKE SILVER CORP.
+CRUCF,Colibri Resource Corp
+SRKZF,SKY GOLD CORP.
+WCUFF,World Copper Ltd.
+CNRCF,Canter Resources Corp.
+FDXTF,FENDX TECHNOLOGIES INC.
+LINMF,Linear Minerals Corp
+DTCKF,DAVIS COMMODITIES Ltd
+LITSF,LITHOS GROUP LTD.
+AGNPF,Algernon Health Inc.
+CLDVF,Cloud3 Ventures Inc.
+FECOF,FEC Resources Inc.
+NULGF,NuLegacy Gold Corp
+GRXXF,Critical Reagent Processing Corp.
+GNTOF,GENTOR RESOURCES INC.
+FMTOF,Femto Technologies Inc.
+EMBYF,Nexera Energy Inc.
+UOKAF,MDJM LTD
+ETUGF,E2Gold Inc.
+CYTOF,Altamira Therapeutics Ltd.
+ESHSF,Eddy Smart Home Solutions Ltd.
+GNOLF,GENOIL INC
+CPTAF,Captivision Inc.
+SPOWF,Strata Power Corp
+LILMF,Lilium N.V.
+BHATF,Blue Hat Interactive Entertainment Technology
+CWNOF,CHINESEWORLDNET COM INC
+WLGSF,"WANG & LEE GROUP, Inc."
+GTIJF,GRAPHJET TECHNOLOGY
+KHOBF,KHEOBA Ltd
+FRFAF,Fresh Factory B.C. Ltd.
+GDGIF,"Gemdale Gold, Inc"
+MANU,Manchester United plc
+BYDDF,BYD CO LTD
+AIQUF,L AIR LIQUIDE SA /FI
+SNPMF,CHINA PETROLEUM & CHEMICAL CORP
+MBGAF,DAIMLER AG
+PPRUF,Kering
+KDDIF,KDDI CORP
+DKILF,Daikin Industries Ltd
+ITOCF,ITOCHU CORP
+CODGF,COMPAGNIE DE SAINT GOBAIN
+SAXPF,Sampo OYJ
+HMRZF,H&M HENNES & MAURITZ AB
+CHKIF,CHINA SOUTHERN AIRLINES CO LTD
+SGIOF,SHIONOGI & CO LTD
+SHECF,"Shin-Etsu Chemical Co., Ltd."
+ALMMF,ALUMINUM CORP OF CHINA LTD
+PRYMF,Prysmian S.p.A.
+MITUF,Mitsui Chemicals Inc
+SPTJF,SINOPEC SHANGHAI PETROCHEMICAL CO LTD
+PIFMF,"Indofood Sukses Makmur, Tbk"
+TYTMF,Tokyo Tatemono Co Ltd
+CDGLF,ComfortDelGro Corp Ltd
+DRSHF,DroneShield Ltd
+ARZTF,ARYZTA AG (fka IAWS GROUP PLC)
+GDRZF,GOLD RESERVE LTD
+ERLFF,Entree Resources Ltd.
+BNIGF,Beroni Group Ltd
+WONDF,WonderFi Technologies Inc.
+CHPGF,Chesapeake Gold Corp
+OCGSF,Outcrop Silver & Gold Corp
+FUUFF,F3 Uranium Corp.
+ARRKF,ARRAS MINERALS CORP.
+NSRCF,NextSource Materials Inc.
+SCYYF,SCANDIUM INTERNATIONAL MINING CORP.
+AVLNF,Avalon Advanced Materials Inc.
+MRZLF,Mirasol Resources Ltd
+BNSOF,BONSO ELECTRONICS INTERNATIONAL INC
+SWISF,Sekur Private Data Ltd.
+PMEDF,Predictmedix Inc.
+FEOVF,OCEANIC IRON ORE CORP
+NEXCF,Nextech3D.AI Corp.
+SILEF,Silver Elephant Mining Corp.
+BBBXF,Brixton Metals Corp
+RMESF,"RED METAL RESOURCES, LTD."
+EGTYF,Eguana Technologies Inc.
+EHVVF,"Ehave, Inc."
+LTESF,Leet INC.
+WCPRF,WHITECAP RESOURCES INC.
+DRRKF,dormakaba Holding AG
+GIGGF,Giga Metals Corp
+HMELF,Hold Me Ltd
+DAZSF,ZKGC New Energy Ltd
+TANAF,Tian'an Technology Group Ltd
+STHRF,Strathcona Resources Ltd.
+APXCF,APEX CRITICAL METALS CORP.
+CYJBF,Cargotec Corp OYJ
+AMLIF,American Lithium Corp.
+SNIRF,SENIOR PLC
+CMCLF,"China Molybdenum Co., Ltd."
+CITAF,CHINA SHIPPING CONTAINER LINES CO LTD
+SGBAF,SES S.A.
+SKLTF,Seek Ltd
+GRKZF,Greek Organisation of Football Prognostics S.A.
+CSCIF,COSCIENS Biopharma Inc.
+RMTHF,MAGIC SOFTWARE ENTERPRISES LTD
+BYDIF,BYD Electronic (International) Co Ltd
+TGOPF,3i GROUP PLC
+WEXPF,WESTERN EXPLORATION INC.
+CB,Chubb Ltd
+CNQ,CANADIAN NATURAL RESOURCES LTD
+AEM,AGNICO EAGLE MINES LTD
+ASX,"ASE Technology Holding Co., Ltd."
+CP,CANADIAN PACIFIC KANSAS CITY LTD/CN
+BAM,Brookfield Asset Management Ltd.
+RCL,ROYAL CARIBBEAN CRUISES LTD
+CRH,CRH PUBLIC LTD CO
+IMO,IMPERIAL OIL LTD
+SE,Sea Ltd
+FLEX,FLEX LTD.
+INFY,Infosys Ltd
+GRMN,GARMIN LTD
+CRDO,Credo Technology Group Holding Ltd
+ESLT,ELBIT SYSTEMS LTD
+CCL,Carnival Corp Ltd.
+TSEM,TOWER SEMICONDUCTOR LTD
+CHT,CHUNGHWA TELECOM CO LTD
+NTR,Nutrien Ltd.
+AMRZ,Amrize Ltd
+BAP,CREDICORP LTD
+WIT,WIPRO LTD
+IREN,IREN Ltd
+ROIV,Roivant Sciences Ltd.
+NVMI,NOVA LTD.
+SKM,SK TELECOM CO LTD
+ENLT,Enlight Renewable Energy Ltd.
+EG,"EVEREST GROUP, LTD."
+CHKP,CHECK POINT SOFTWARE TECHNOLOGIES LTD
+IVZ,Invesco Ltd.
+RDY,DR REDDYS LABORATORIES LTD
+WYNN,WYNN RESORTS LTD
+YMM,Full Truck Alliance Co. Ltd.
+FROG,JFrog Ltd
+ICL,ICL Group Ltd.
+CAMT,CAMTEK LTD
+NXE,NexGen Energy Ltd.
+RIG,Transocean Ltd.
+DOX,AMDOCS LTD
+SGHC,Super Group (SGHC) Ltd
+AXTA,Axalta Coating Systems Ltd.
+MDA,MDA Space Ltd.
+BZ,Kanzhun Ltd
+ESNT,Essent Group Ltd.
+LPL,"LG Display Co., Ltd."
+XNDU,Xanadu Quantum Technologies Ltd
+G,Genpact LTD
+GLNG,GOLAR LNG LTD
+WFG,"WEST FRASER TIMBER CO., LTD"
+GLBE,Global-E Online Ltd.
+BB,BLACKBERRY Ltd
+ORLA,Orla Mining Ltd.
+HAFN,Hafnia Ltd
+MMYT,MakeMyTrip Ltd
+MNDY,monday.com Ltd.
+VEON,VEON Ltd.
+SKE,Skeena Resources Ltd
+TCGL,TechCreate Group Ltd.
+DLO,dLocal Ltd
+AGO,ASSURED GUARANTY LTD
+SIG,SIGNET JEWELERS LTD
+EFXT,Enerflex Ltd.
+BWLP,BW LPG Ltd
+CLBT,Cellebrite DI Ltd.
+ETOR,eToro Group Ltd.
+SHOO,"STEVEN MADDEN, LTD."
+ZIM,ZIM Integrated Shipping Services Ltd.
+CWK,Cushman & Wakefield Ltd.
+IHS,IHS Holding Ltd
+STNE,StoneCo Ltd.
+SPNT,SiriusPoint Ltd
+PLBL,Polibeli Group Ltd
+NYAX,Nayax Ltd.
+BRAI,Braiin Ltd
+TNK,TEEKAY TANKERS LTD.
+TGB,TASEKO MINES LTD
+PAGS,PagSeguro Digital Ltd.
+WIX,Wix.com Ltd.
+CYD,CHINA YUCHAI INTERNATIONAL LTD
+MLCO,Melco Resorts & Entertainment LTD
+FORTY,FORMULA SYSTEMS (1985) LTD
+NVCR,NovoCure Ltd
+ZLAB,Zai Lab Ltd
+LPG,DORIAN LPG LTD.
+FLNG,Flex LNG Ltd.
+KOS,Kosmos Energy Ltd.
+BORR,Borr Drilling Ltd
+SFL,SFL Corp Ltd.
+BVC,BitVentures Ltd
+OPRA,Opera Ltd
+CNL,Collective Mining Ltd.
+BHVN,Biohaven Ltd.
+KARO,Karooooo Ltd.
+AOSL,ALPHA & OMEGA SEMICONDUCTOR Ltd
+URGN,UroGen Pharma Ltd.
+NOMD,Nomad Foods Ltd
+GENI,Genius Sports Ltd
+MRTN,MARTEN TRANSPORT LTD
+LU,Lufax Holding Ltd
+GILT,GILAT SATELLITE NETWORKS LTD
+GIII,G III APPAREL GROUP LTD /DE/
+IPX,IPERIONX Ltd
+KMTS,"KESTRA MEDICAL TECHNOLOGIES, LTD."
+RDWR,RADWARE LTD
+HLF,HERBALIFE LTD.
+AFYA,Afya Ltd
+WVE,Wave Life Sciences Ltd.
+NAK,NORTHERN DYNASTY MINERALS LTD
+ITRN,Ituran Location & Control Ltd.
+JKS,"JinkoSolar Holding Co., Ltd."
+ASM,AVINO SILVER & GOLD MINES LTD
+SIFY,SIFY TECHNOLOGIES LTD
+MGRT,Mega Fortune Co Ltd
+NAT,NORDIC AMERICAN TANKERS Ltd
+HIVE,HIVE Digital Technologies Ltd.
+GNK,GENCO SHIPPING & TRADING LTD
+YALA,Yalla Group Ltd
+SLI,STANDARD LITHIUM LTD.
+TIGR,UP Fintech Holding Ltd
+SSYS,STRATASYS LTD.
+INMD,InMode Ltd.
+ANL,Adlai Nortye Ltd.
+OBE,OBSIDIAN ENERGY LTD.
+CGNT,Cognyte Software Ltd.
+SCZM,Santacruz Silver Mining Ltd.
+KRNT,Kornit Digital Ltd.
+HSHP,Himalaya Shipping Ltd.
+ODD,Oddity Tech Ltd
+ISOU,IsoEnergy Ltd.
+RSKD,RISKIFIED LTD.
+MTA,Metalla Royalty & Streaming Ltd.
+THM,INTERNATIONAL TOWER HILL MINES LTD
+GPRK,GeoPark Ltd
+HELE,HELEN OF TROY LTD
+DDI,"DoubleDown Interactive Co., Ltd."
+BWMN,Bowman Consulting Group Ltd.
+DDL,Dingdong (Cayman) Ltd
+PANL,Pangaea Logistics Solutions Ltd.
+PRTA,PROTHENA CORP PUBLIC LTD CO
+TATT,TAT TECHNOLOGIES LTD
+WILC,G WILLI FOOD INTERNATIONAL LTD
+UXIN,Uxin Ltd
+MFI,mF International Ltd
+CWCO,Consolidated Water Co. Ltd.
+HTT,High Templar Tech Ltd
+ESEA,EUROSEAS LTD.
+KMDA,KAMADA LTD
+NEXN,Nexxen International Ltd.
+ZKH,ZKH Group Ltd
+GRVY,"GRAVITY Co., Ltd."
+IBEX,IBEX Ltd
+SUPX,SuperX AI Technology Ltd
+SOHU,Sohu.com Ltd
+JLHL,Julong Holding Ltd
+ZURA,Zura Bio Ltd
+AGCC,Agencia Comercial Spirits Ltd.
+FVRR,Fiverr International Ltd.
+NOA,North American Construction Group Ltd.
+PSFE,Paysafe Ltd
+BGIN,BGIN BLOCKCHAIN Ltd
+ALLT,Allot Ltd.
+NNDM,Nano Dimension Ltd.
+GNE,Genie Energy Ltd.
+PERI,Perion Network Ltd.
+SMWB,SIMILARWEB LTD.
+PLTS,Platinum Analytics Cayman Ltd
+EGG,ENIGMATIG LTD
+SILC,SILICOM LTD.
+BUUU,BUUU Group Ltd
+RELL,"RICHARDSON ELECTRONICS, LTD."
+CRNT,CERAGON NETWORKS LTD
+CGEN,COMPUGEN LTD
+YSG,Yatsen Holding Ltd
+RDCM,RADCOM LTD
+SLGL,Sol-Gel Technologies Ltd.
+TC,Token Cat Ltd
+PTNM,Pitanium Ltd
+EAF,GRAFTECH INTERNATIONAL LTD
+AUDC,AUDIOCODES LTD
+ATGL,Alpha Technology Group Ltd
+MAGH,Magnitude International Ltd
+PLG,PLATINUM GROUP METALS LTD
+MDWD,MediWound Ltd.
+RFIL,R F INDUSTRIES LTD
+TLSA,Tiziana Life Sciences Ltd
+RYDE,Ryde Group Ltd
+EPSN,Epsilon Energy Ltd.
+ZJK,"ZJK Industrial Co., Ltd."
+LAWR,"Robot Consulting Co., Ltd."
+FLX,BingEx Ltd
+MENS,Jyong Biotech Ltd.
+ENLV,Enlivex Ltd.
+HTLM,HomesToLife Ltd
+INVZ,Innoviz Technologies Ltd.
+AMBR,Amber International Holding Ltd
+ZHJD,Intelligent Hotel Group Ltd.
+BNR,Burning Rock Biotech Ltd
+KZIA,KAZIA THERAPEUTICS LTD
+YOOV,Concorde International Group Ltd.
+NNOX,Nano-X Imaging Ltd.
+JMG,JM Group Ltd
+YRD,Yiren Digital Ltd.
+HERE,Here Group Ltd
+PSIG,PS International Group Ltd.
+GHG,GreenTree Hospitality Group Ltd.
+FURY,FURY GOLD MINES LTD
+LUD,Luda Technology Group Ltd
+LFS,"LEIFRAS Co., Ltd."
+SRL,Scully Royalty Ltd.
+PYPD,PolyPid Ltd.
+OKYO,OKYO Pharma Ltd
+CWGL,"Crimson Wine Group, Ltd"
+KG,Kestrel Group Ltd
+GAMB,Gambling.com Group Ltd
+WETO,Wetour Robotics Ltd
+ZKIN,"ZK International Group Co., Ltd."
+NCTY,The9 LTD
+LSE,"Leishen Energy Holding Co., Ltd."
+LGCL,Lucas GC Ltd
+SKBL,Skyline Builders Group Holding Ltd
+SFWL,SHENGFENG DEVELOPMENT Ltd
+EDRY,EuroDry Ltd.
+CSTE,Caesarstone Ltd.
+TJGC,TJGC GROUP Ltd
+ZTEK,Zentek Ltd.
+VIOT,"Viomi Technology Co., Ltd"
+JDZG,JIADE Ltd
+SPCB,SuperCom Ltd
+ENTX,Entera Bio Ltd.
+BGM,BGM Group Ltd.
+PN,Skycorp Solar Group Ltd
+THCH,TH International Ltd
+SDM,Smart Digital Group Ltd
+YIBO,Planet Image International Ltd
+APWC,ASIA PACIFIC WIRE & CABLE CORP LTD
+ELTK,ELTEK LTD
+ICG,Intchains Group Ltd
+NCEW,New Century Logistics (BVI) Ltd
+INLF,INLIF Ltd
+ALAR,Alarum Technologies Ltd.
+RCON,"Recon Technology, Ltd"
+LVPA,LVPAI GROUP Ltd
+XCH,XCHG Ltd
+DDC,DDC Enterprise Ltd
+AVX,AVAX ONE TECHNOLOGY LTD.
+LITB,"LightInTheBox Holding Co., Ltd."
+INCR,Intercure Ltd.
+ENGS,Energys Group Ltd
+PFAI,Pinnacle Food Group Ltd
+MATH,Metalpha Technology Holding Ltd
+RYOJ,"rYojbaba Co., Ltd."
+INDO,Indonesia Energy Corp Ltd
+GNS,Genius Group Ltd
+KMRK,K-TECH SOLUTIONS CO LTD
+GSIW,Garden Stage Ltd
+DUO,Fangdd Network Group Ltd.
+ZYBT,Zhengye Biotechnology Holding Ltd
+JG,Aurora Mobile Ltd
+DGNX,Diginex Ltd
+JZ,Jianzhi Education Technology Group Co Ltd
+ZTG,Zenta Group Co Ltd
+PTLE,PTL Ltd
+BMR,Beamr Imaging Ltd.
+PLRZ,Polyrizon Ltd.
+PLSM,Pulsenmore Ltd.
+ZLME,Zhanling International Ltd
+NPT,Texxon Holding Ltd
+YSXT,"YSX Tech Co., Ltd"
+LDDD,Longduoduo Co Ltd
+YMAT,"J-Star Holding Co., Ltd."
+SPPL,SIMPPLE LTD.
+JL,J-Long Group Ltd
+SLGB,Smart Logistics Global Ltd
+KNRX,KNOREX LTD.
+FENG,Phoenix New Media Ltd
+LSH,Lakeside Holding Ltd
+PDC,Perpetuals.com Ltd
+PASW,"Ping An Biomedical Co., Ltd."
+CPOP,"Pop Culture Group Co., Ltd"
+OMH,Ohmyhome Ltd
+YAAS,Youxin Technology Ltd
+TMDE,TMD Energy Ltd
+LRE,"LEAD REAL ESTATE CO., LTD"
+SAGT,SAGTEC GLOBAL Ltd
+ZJYL,Jin Medical International Ltd.
+LICN,Lichen International Ltd
+SOS,SOS Ltd
+EPSM,Epsium Enterprise Ltd
+NCEL,NewcelX Ltd.
+ZDAI,"DirectBooking Technology Co., Ltd."
+KPEA,Kun Peng International Ltd.
+HCAI,"Huachen AI Parking Management Technology Holding Co., Ltd"
+GIGM,GIGAMEDIA Ltd
+EDTK,Skillful Craftsman Education Technology Ltd
+SLAI,SOLAI Ltd
+INTJ,Intelligent Group Ltd
+HUDI,"Huadi International Group Co., Ltd."
+PRZO,ParaZero Technologies Ltd.
+MMA,MIXED MARTIAL ARTS GROUP LTD
+POM,POMDOCTOR Ltd
+ONEG,OneConstruction Group Ltd
+NWGL,CL Workshop Group Ltd
+TDIC,Dreamland Ltd
+FOFO,"Hang Feng Technology Innovation Co., Ltd."
+GDTC,CytoMed Therapeutics Ltd
+SEED,Origin Agritech LTD
+MBAI,Check-Cap Ltd
+BON,Bon Natural Life Ltd
+HKPD,"Cellyan Biotechnology Co., Ltd"
+SELX,Semilux International Ltd.
+REE,REE Automotive Ltd.
+BANL,CBL International Ltd
+RGNT,REGENTIS BIOMATERIALS LTD.
+RPGL,Republic Power Group Ltd
+BMGL,Basel Medical Group Ltd
+BTCT,BTC Digital Ltd.
+RAY,Raytech Holding Ltd
+VCIG,VCI Global Ltd
+ELOG,Eastern International Ltd.
+OST,"Ostin Technology Group Co., Ltd."
+LOBO,LOBO TECHNOLOGIES LTD.
+LHSW,Lianhe Sowell International Group Ltd
+GCDT,Green Circle Decarbonize Technology Ltd
+GMM,Global Mofy AI Ltd
+DTSS,Datasea Intelligent Technology Ltd.
+QHUOY,QUHUO Ltd
+MIMI,Mint Inc Ltd
+YHGJ,YUNHONG GREEN CTI LTD.
+WFF,WF Holding Ltd
+ADXN,Addex Therapeutics Ltd.
+TKLF,"Tokyo Lifestyle Co., Ltd."
+TGHL,GrowHub Ltd
+JCTC,JEWETT CAMERON TRADING CO LTD
+SYNX,Silynxcom Ltd.
+GLE,Global Engine Group Holding Ltd
+FBGL,FBS Global Ltd
+RBNE,Robin Energy Ltd.
+WAFU,Wah Fu Education Group Ltd
+IFBD,"Infobird Co., Ltd"
+AZI,Autozi Internet Technology (Global) Ltd.
+APM,Aptorum Group Ltd
+FMFC,Kandal M Venture Ltd
+GDC,GD Culture Group Ltd
+MSGY,Masonglory Ltd
+NMEX,NORTHERN MINERALS & EXPLORATION LTD.
+MAXNQ,"Maxeon Solar Technologies, Ltd."
+JYD,Jayud Global Logistics Ltd
+UBXG,U-BX Technology Ltd.
+CLGN,CollPlant Biotechnologies Ltd
+GLXG,Galaxy Payroll Group Ltd
+WBUY,WEBUY GLOBAL LTD
+MEGL,Magic Empire Global Ltd
+XTLB,XTL BIOPHARMACEUTICALS LTD
+AIHS,Senmiao Technology Ltd
+JWEL,Jowell Global Ltd.
+RDHL,RedHill Biopharma Ltd.
+IOTR,iOThree Ltd
+WXM,WF International Ltd.
+PMAX,Powell Max Ltd
+CRE,Cre8 Enterprise Ltd
+GELS,Gelteq Ltd
+NCT,Intercont (Cayman) Ltd
+WNW,Meiwu Technology Co Ltd
+EDHL,Everbright Digital Holding Ltd.
+WAI,Top KingWin Ltd
+EEIQ,EpicQuest Education Group International Ltd
+GSUN,Golden Sun Technology Group Ltd.
+BYAH,"Park Ha Biological Technology Co., Ltd."
+OCG,Oriental Culture Holding LTD
+EZGO,EZGO Technologies Ltd.
+MI,NFT Ltd
+BQ,Boqii Holding Ltd
+LXEH,Lixiang Education Holding Co. Ltd.
+SGLY,Singularity Future Technology Ltd.
+BTOG,BIT ORIGIN Ltd
+SPRC,SciSparc Ltd.
+ELPW,Elong Power Holding Ltd.
+LNKS,Linkers Industries Ltd
+DXF,Eason Technology Ltd
+WTO,UTime Ltd
+HAO,Haoxi Health Technology Ltd
+MASK,3 E Network Technology Group Ltd
+SCNI,Scinai Immunotherapeutics Ltd.
+UK,Ucommune International Ltd
+FGL,Founder Group Ltd
+IMTE,Integrated Media Technology Ltd
+GTLL,GLOBAL TECHNOLOGIES LTD
+IBG,Innovation Beverage Group Ltd
+YBGJ,Yubo International Biotech Ltd
+PAVS,Paranovus Entertainment Technology Ltd.
+PRFX,PRF Technologies Ltd.
+YYGH,YY Group Holding Ltd.
+BNRG,Brenmiller Energy Ltd.
+QSJC,"TANCHENG GROUP CO., LTD."
+LGHL,Lion Group Holding Ltd
+JFIL,"Jubilant Flame International, Ltd"
+GPLB,Green Planet Bio Engineering Co. Ltd.
+MTLK,METALINK LTD
+WNLV,Winvest Group Ltd
+NFSN,"Nongfu Shop Digital New Retail Co., Ltd"
+WOK,WORK Medical Technology Group LTD
+XXC,XINXU COPPER INDUSTRY TECHNOLOGY Ltd
+CCIL,CALM Chain International Ltd
+WATR,Air Water Ventures Ltd
+EVON,EvoNexus Group LTD
+SLBT,SL Science Holding Ltd
+MEDG,MEDI Group Ltd
+LHI,Living Homeopathy International Ltd.
+KPL,Kepler Group Ltd
+TTEI,TDE GROUP Ltd
+YLY,Zi Yun Dong Fang Ltd
+INHI,Unitrend Entertainment Group Ltd
+AMBO,Ambow Education Holding Ltd.
+SVA,SINOVAC BIOTECH LTD
+RAASY,Cloopen Group Holding Ltd
+HCIL,"Hongchang International Co., Ltd"
+GSTX,Graphene & Solar Technologies Ltd
+SGTM,"Sustainable Green Team, Ltd."
+GRFXY,Graphex Group Ltd
+ACBM,"ACRO BIOMEDICAL CO., LTD."
+SHFH,Scientist Home Future Health Ltd
+KUKEY,Kuke Music Holding Ltd
+KMFG,KEEMO Fashion Group Ltd
+ABEV,AMBEV S.A.

@@ -67,8 +67,9 @@ def main():
     data_file, ranked_file = f'data_{ts}.csv', f'processed_data_{ts}.csv'
 
     tickers = pd.read_csv('company_tickers.csv').rename(columns={'ticker':'Ticker','name':'Name'})
-    tickers = tickers[~tickers.apply(lambda r: is_foreign(r['Ticker'], r['Name']), axis=1)]
-    print(f'Processing {len(tickers)} tickers (foreign excluded)...')
+    blacklist = set(pd.read_csv('blacklisted_foreign_companies.csv')['Ticker'])
+    tickers = tickers[~tickers['Ticker'].isin(blacklist) & ~tickers.apply(lambda r: is_foreign(r['Ticker'], r['Name']), axis=1)]
+    print(f'Processing {len(tickers)} tickers (blacklist + foreign regex applied)...')
 
     with open(data_file, 'w', newline='') as f:
         csv.DictWriter(f, fieldnames=COLS).writeheader()
