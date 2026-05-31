@@ -46,12 +46,11 @@ def rank(data_file, ranked_file):
     def valid(r):
         try: return float(r['FCF_EV_Ratio_Pct']) > 0
         except: return False
-    ranked = sorted(filter(valid, rows), key=lambda r: float(r['FCF_EV_Ratio_Pct']), reverse=True)
+    ranked = [{'Rank': i, **r} for i, r in enumerate(sorted(filter(valid, rows), key=lambda r: float(r['FCF_EV_Ratio_Pct']), reverse=True), 1)]
     with open(ranked_file, 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=['Rank']+COLS)
         w.writeheader()
-        for i, r in enumerate(ranked, 1):
-            w.writerow({'Rank': i, **r})
+        w.writerows(ranked)
     with open('data.json', 'w') as f:
         json.dump({'updated': datetime.now().strftime('%a, %b %d, %Y'), 'rows': ranked}, f)
     print(f'Ranked {len(ranked)} tickers -> {ranked_file} + data.json')
