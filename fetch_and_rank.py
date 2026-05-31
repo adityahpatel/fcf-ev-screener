@@ -1,9 +1,16 @@
-import pandas as pd, yfinance as yf, time, logging, csv, json
+import pandas as pd, yfinance as yf, time, logging, csv, json, re
 from datetime import datetime
 
 logging.basicConfig(filename='errors.log', level=logging.ERROR, format='%(asctime)s - %(message)s')
 
 COLS = ['Ticker','Name','Market_Cap','Enterprise_Value','FCF_TTM','FCF_Y1','FCF_Y2','FCF_Y3','FCF_Y4','FCF_Avg','FCF_EV_Ratio_Pct','Revenue_Growth_Est_Pct','Analyst_Count']
+
+# (?<!\w) and (?!\w) handle suffixes ending in '.' (e.g. S.A.) at end of string — \b fails there
+FOREIGN = re.compile(r'(?<!\w)(Ltd\.?|plc\.?|S\.A\.|AG|N\.V\.|AB|ASA|SE|GmbH|S\.p\.A|S\.A\.B|S\.A\.P\.I|B\.V\.|KGaA|Oyj|A\/S|Tbk|Bhd)(?!\w)', re.IGNORECASE)
+OTC_F   = re.compile(r'[A-Z]{4}F$')
+
+def is_foreign(ticker, name):
+    return bool(FOREIGN.search(name)) or bool(OTC_F.match(ticker))
 
 def get_ev(sym):
     try: return yf.Ticker(sym).info.get('enterpriseValue')
@@ -60,7 +67,8 @@ def main():
     data_file, ranked_file = f'data_{ts}.csv', f'processed_data_{ts}.csv'
 
     tickers = pd.read_csv('company_tickers.csv').rename(columns={'ticker':'Ticker','name':'Name'})
-    print(f'Processing {len(tickers)} tickers...')
+    tickers = tickers[~tickers.apply(lambda r: is_foreign(r['Ticker'], r['Name']), axis=1)]
+    print(f'Processing {len(tickers)} tickers (foreign excluded)...')
 
     with open(data_file, 'w', newline='') as f:
         csv.DictWriter(f, fieldnames=COLS).writeheader()

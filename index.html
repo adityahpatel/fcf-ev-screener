@@ -43,7 +43,7 @@
   <div class="overlay" id="overlay" onclick="if(event.target===this)this.classList.remove('open')">
     <div class="modal">
       <span class="close" onclick="document.getElementById('overlay').classList.remove('open')">&#x2715;</span>
-      <h2>How we went from 10,363 → 998</h2>
+      <h2>How we went from 10,363 → 997</h2>
       <hr class="divider">
       <div class="step">
         <div class="step-num">1</div>
@@ -98,7 +98,7 @@
         <div class="step-num">8</div>
         <div class="step-body">
           <strong>Removed foreign-incorporated companies</strong>
-          <span>Filtered out companies incorporated outside the US but listed on US exchanges — identified by legal suffixes (Ltd, plc, AG, SE, N.V., S.A., AB, etc.) and OTC foreign share tickers. Examples: AstraZeneca, Linde, TotalEnergies, UBS, Accenture, Dr. Reddy's, Garmin, Infosys, Chubb. <span class="count">−874 removed</span> → <span class="kept">3,386 remaining</span></span>
+          <span>Many companies trade on US exchanges (NYSE/NASDAQ) but are legally incorporated abroad — in Ireland, Switzerland, Canada, India, Singapore, Brazil, etc. These are excluded because accounting standards, tax treatment, and capital return behavior differ materially from US-domiciled companies, making FCF/EV comparisons less apples-to-apples. Identified by legal name suffixes (Ltd, plc, AG, SE, N.V., S.A., AB, GmbH, etc.) and OTC foreign share ticker patterns. Examples removed: AstraZeneca (UK), Linde (Ireland), TotalEnergies (France), Garmin (Switzerland), Infosys (India), Ambev (Brazil), Dr. Reddy's (India), Canadian Natural Resources (Canada). <span class="count">−875 removed</span> → <span class="kept">3,385 remaining</span></span>
         </div>
       </div>
       <div class="step">
@@ -112,7 +112,7 @@
         <div class="step-num">10</div>
         <div class="step-body">
           <strong>Final ranked universe</strong>
-          <span>Companies ranked by FCF/EV % — higher means more free cash generated relative to price paid. <span class="kept">998 companies</span></span>
+          <span>Companies ranked by FCF/EV % — higher means more free cash generated relative to price paid. <span class="kept">997 companies</span></span>
         </div>
       </div>
     </div>
