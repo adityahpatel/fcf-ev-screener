@@ -112,7 +112,7 @@
         <div class="step-num">10</div>
         <div class="step-body">
           <strong>Final ranked universe</strong>
-          <span>Companies ranked by FCF/EV % — higher means more free cash generated relative to price paid. <span class="kept">997 companies</span></span>
+          <span>Companies ranked by FCF/EV % — higher means more free cash generated relative to price paid. <span class="kept" id="universe-count">— companies</span></span>
         </div>
       </div>
     </div>
@@ -177,6 +177,7 @@
     fetch('data.json').then(r => r.json()).then(d => {
       all = d.rows;
       document.getElementById('last-updated').textContent = d.updated;
+      document.getElementById('universe-count').textContent = all.length + ' companies';
       render();
     });
   </script>
