@@ -2,8 +2,14 @@ name: Weekly Fetch & Rank
 
 on:
   schedule:
-    - cron: '10 5 * * 6'   # Fri 10:10 PM PT  — primary
-    - cron: '25 7 * * 6'   # Sat 12:25 AM PT  — backup
+    - cron: '10 5 * * 6'   # Fri 10:10 PM PT
+    - cron: '40 5 * * 6'   # Fri 10:40 PM PT
+    - cron: '10 6 * * 6'   # Fri 11:10 PM PT
+    - cron: '40 6 * * 6'   # Fri 11:40 PM PT
+    - cron: '10 7 * * 6'   # Sat 12:10 AM PT
+    - cron: '40 7 * * 6'   # Sat 12:40 AM PT
+    - cron: '10 8 * * 6'   # Sat 01:10 AM PT
+    - cron: '40 8 * * 6'   # Sat 01:40 AM PT
   workflow_dispatch:
 
 jobs:
