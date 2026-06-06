@@ -23,9 +23,10 @@ def get_fcf(sym):
         ttm_fcf = ttm.loc['Free Cash Flow'].iloc[0] if ttm is not None and not ttm.empty and 'Free Cash Flow' in ttm.index else None
         cf = t.cashflow
         if cf is None or cf.empty or 'Free Cash Flow' not in cf.index:
-            return ttm_fcf, [None]*4
-        return ttm_fcf, list(cf.loc['Free Cash Flow'].iloc[:4].values)
-    except: return None, [None]*4
+            return ttm_fcf, [-999, -999, -999, -999]
+        values = list(cf.loc['Free Cash Flow'].iloc[:4].values)
+        return ttm_fcf, values + [-999] * (4 - len(values))
+    except: return None, [-999, -999, -999, -999]
 
 def get_analyst(sym):
     try:
@@ -42,7 +43,9 @@ def get_analyst(sym):
 
 def compute(ttm, annual, ev):
     if not ttm or not ev: return None, None
-    all_fcf = [ttm] + [x for x in annual if x is not None]
+    real_annual = [x for x in annual if x != -999]
+    if len(real_annual) < 4: return None, -999
+    all_fcf = [ttm] + real_annual
     avg = sum(all_fcf) / len(all_fcf)
     if any(x < 0 for x in all_fcf): return avg, -999
     return avg, round((avg/ev)*100, 1) if ev else None
