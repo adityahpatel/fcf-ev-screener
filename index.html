@@ -43,7 +43,7 @@
   <div class="overlay" id="overlay" onclick="if(event.target===this)this.classList.remove('open')">
     <div class="modal">
       <span class="close" onclick="document.getElementById('overlay').classList.remove('open')">&#x2715;</span>
-      <h2>How we went from 10,363 → 997</h2>
+      <h2>How we went from 10,363 → <span id="overlay-count">—</span></h2>
       <hr class="divider">
       <div class="step">
         <div class="step-num">1</div>
@@ -178,6 +178,7 @@
       all = d.rows;
       document.getElementById('last-updated').textContent = d.updated;
       document.getElementById('universe-count').textContent = all.length + ' companies';
+      document.getElementById('overlay-count').textContent = all.length;
       render();
     });
   </script>
