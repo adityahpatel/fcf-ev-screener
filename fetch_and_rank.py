@@ -74,10 +74,11 @@ def main():
     tickers = tickers[~tickers['Ticker'].isin(blacklist) & ~tickers.apply(lambda r: is_foreign(r['Ticker'], r['Name']), axis=1)]
     print(f'Processing {len(tickers)} tickers (blacklist + foreign regex applied)...')
 
+    total = len(tickers)
     with open(data_file, 'w', newline='') as f:
         csv.DictWriter(f, fieldnames=COLS).writeheader()
 
-    for _, row in tickers.iterrows():
+    for i, (_, row) in enumerate(tickers.iterrows(), 1):
         sym, name = row['Ticker'], row['Name']
         ev = get_ev(sym)
         ttm, annual = get_fcf(sym)
@@ -89,6 +90,8 @@ def main():
                 'FCF_TTM':ttm,'FCF_Y1':annual[0],'FCF_Y2':annual[1],'FCF_Y3':annual[2],'FCF_Y4':annual[3],
                 'FCF_Avg':avg,'FCF_EV_Ratio_Pct':ratio,'Revenue_Growth_Est_Pct':growth,'Analyst_Count':analysts
             })
+        if i % 100 == 0:
+            print(f'[{i}/{total}] processed', flush=True)
         time.sleep(0.5)
 
     print(f'Data written -> {data_file}')
